@@ -104,7 +104,7 @@ def lebo_push(tvCode: str, url: str,mediaType: str):
     })
 
     headers = {
-        'Authorization': 'Bearer '+"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4ODg4ODg4XzIzMzQwXzEiLCJpYXQiOjE3NTAyMzEwNzcsImV4cCI6MTc1MDMxNzQ3N30.6vxs4PBKgWYiEujmo_UgcxR8gjjVPLnXTf3rNYpNg4s",
+        'Authorization': 'Bearer '+"xxx",
         'Content-Type': 'application/json'
     }
     conn.request("POST", "/api/lebo-open/v2/push?appId=23340&sessionId=12321sdasda1232131231&uid=90001799436462&tvCode="+tvCode, payload, headers)
